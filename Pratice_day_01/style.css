@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-image: url(images/background-banner-image.jpg),linear-gradient(45deg, rgb(0, 0, 0), rgb(144, 142, 142));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: center;    
+}
+
+/* This is nav section */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    padding: 15px;
+}
+.logo{
+    width: 90px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);    
+}
+.menu-container ul{
+    display: flex;
+    gap: 15px;   
+}
+ul li:hover{
+    color: rgb(255, 226, 4);
+    cursor: pointer;      
+}
+/* This is banner section */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    gap: 50px;    
+}
+.banner-left{
+    width: 400px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+.banner-p{
+    color: rgb(198, 166, 125);
+    font-size: 18px;
+
+}
+.banner-h1{   
+    font-size: 30px;
+}
+
+.banner-btn{
+    margin-top: 8px;
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    border: none;
+    background-color: #FB9D5C;
+    cursor: pointer;
+    font-size: 16px;    
+}
+.banner-btn:hover{
+    background-color: rgb(234, 234, 242);
+    color: rgb(43, 45, 45);
+}
+.banner-img{    
+    width: 80%;
+    margin: auto;
+}
+
+
+/* This is main section */
+
+.main-img-container{    
+    background-color: #f9f9f9;
+    padding: 35px 0;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.service-container{
+    margin-top: 35px;
+}
+.service-top-container{
+    text-align: center;
+}
+.service-title{    
+    margin-top: 30px;
+    font-size: 40px;   
+}
+.service-top-description{    
+    font-size: 20px;
+}
+.service-topbar{
+    display: flex;
+    justify-content: space-around;   
+}
+.service-bottombar{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.service-card{
+    width: 300px;
+    height: 300px;    
+    /* box-shadow: 4px 4px 8px gray; */
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;    
+}
+.service-img{
+    width: 130px;
+    margin-top: 15px;
+}
+
+.service-description{
+    margin: 5px;
+}
+
+/* This is contact section */
+
+
+.contact-container{
+    margin-top: 40px;      
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.contact-btn{   
+    padding: 10px;
+    border: 1px solid none;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    border: none;
+    background-color: #FB9D5C;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-btn:hover{
+    background-color: rgb(100, 100, 174);
+    color: rgb(235, 236, 236);
+}
+.right-contact-side{
+    padding: 50px;
+}
+
+.right-contact-side h1{
+    font-size: 30px;
+}
+.contact-h1{
+    color: #FB9D5C;
+}
+.contact-text{
+    text-align: justify;
+}
+.contact-consult{
+    font-size: 30px;    
+}
+.contact-number{
+    font-size: 25px;
+    color: #FB9D5C;
+}
+
+
+
+/*  This is footer section */
+.footer-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;    
+    color: #f9f9f9;    
+    align-items: center;   
+    padding: 40px;    
+}
+.footer-left-side{
+    text-align: center;
+}
+.footer-left-side h3{
+    color: #FB9D5C;
+        
+}
+.left-side-footer{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;        
+}
+.left-side-footer h3{
+    color: #FB9D5C;;
+}
+.left-side-footer img{
+    width: 60px;
+}
+.footer-input{
+    padding: 10px;    
+}
+
+.footer-learn-more h3{
+    text-align: center;
+    font-size: 25px;
+}
+.footer-learn-more li{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer-right-side{
+    text-align: center;
+
+}
+.footer-address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+@media only screen and (min-width: 400px) and 
+(max-width: 767px){
+   
+        
+}
+
+@media only screen and (min-width: 768px) and 
+(max-width: 992px){
+        
+}
+
+@media only screen and (min-width: 992px) and 
+(max-width: 1600px){
+        
+}
